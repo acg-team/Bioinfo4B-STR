@@ -1,3 +1,6 @@
+# repo specific stuff
+data/reference/APC_mut*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
