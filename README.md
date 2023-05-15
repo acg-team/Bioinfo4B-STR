@@ -15,7 +15,7 @@ If you would like some more background on STRs, the way they mutate, and why the
 
 This project aims to introduce standard bioinformatics tasks such as short-read sequence alignment, variant calling, and variant interpretation on STRs. The scenario is as follows: there is a patient with a suspected genetic defect whose genome has been sequencenced. Given the sequencing samples, your task is to align them to a reference genome, process the alignment, and look for genetic variants. Finally, you will need to investigate the possible functional effects of any detected variant to see if they could explain the patient's symptoms.  
 
-*To keep this process managable, we will focus on only a single gene: the APC gene. The sequencing reads that you'll be using from this project were simulated from the APC reference sequence using [wgsim](https://github.com/lh3/wgsim).*
+*Note: to keep this process managable, we will focus on only a single gene: the APC gene. The sequencing reads that you'll be using from this project were simulated from the APC reference sequence using [wgsim](https://github.com/lh3/wgsim).*
 
 
 
