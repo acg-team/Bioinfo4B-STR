@@ -1,6 +1,10 @@
 # Bioinfo4B-STR  
 Short tandem repeat project for the course "Bioinformatics for Beginners"  
 
+## Background  
+
+Short tandem repeats (STRs) are consecutive repetitions of 1-6 basepair (bp) motifs. They are estimated to make up around 3\% of the human genome. STRs are a rich source of genomic variation, with individual loci having mutation rates in the range of $10^{4}$ - $10^9$ mutations per generation --- up to a million times higher than point mutations (REF). STR mutations are typically the result of DNA polymerase slippage during replication, where strand misalignment after polymerase detachment results in the insertion or deletion of one or more repeat units at a STR locus.
+
 This project aims to introduce standard bioinformatics tasks such as short-read sequence alignment, variant calling, and variant interpretation.  
 
 ## Setting up  
