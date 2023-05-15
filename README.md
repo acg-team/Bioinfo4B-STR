@@ -9,7 +9,7 @@ Short tandem repeats (STRs) are consecutive repetitions of 1-6 basepair (bp) mot
 
 STRs are a rich source of genomic variation, with individual loci having mutation rates in the range of $10^{4}$ - $10^9$ mutations per generation &mdash; up to a million times higher than point mutations. STR mutations are typically the result of DNA polymerase slippage during replication, where strand misalignment after polymerase detachment results in the insertion or deletion of one or more repeat units at a STR locus:  
 
-![](images/str_slippage_example)
+![](images/str_slippage_example.png)
 
 If you would like some more background on STRs, the way they mutate, and why they are relevant, you can have a look at this [review](https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.14106). Reading the Abstract & Introduction sections will provide an overview of our current knowledge of STRs, whereas the later sections are deep-dives of more specific STR characteristics.
 
