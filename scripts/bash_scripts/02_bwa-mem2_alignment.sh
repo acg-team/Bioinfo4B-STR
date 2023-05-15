@@ -1,4 +1,4 @@
-#!/bin/env/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 # Perform the alignment for the reads against the reference sequence

@@ -1,4 +1,4 @@
-#!/bin/env/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 # We run the GangSTR STR genotyping tool on our alignment

@@ -1,4 +1,4 @@
-#!/bin/env/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 # Using samtools view, we convert the alignments generated in the previous step to (binary) BAM format. 

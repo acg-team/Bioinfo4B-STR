@@ -24,7 +24,7 @@ This project aims to introduce standard bioinformatics tasks such as short-read 
 Before getting started, open a terminal, navigate to this directory, and set up the conda environment as follows:  
 
 ```sh
-conda create -f environment.yaml
+conda env create -f environment.yaml
 ```
 
 *Note: if you are using Windows, it is highly recommended to set up [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install). This will give you access to a Linux distribution right in your Windows machine, allowing you to perform all tasks for this project yourself. Otherwise, you can create the Windows conda environment in this folder (`conda create -f environment_windows.yaml`). This env will allow you to work through the Jupyter notebook and read along, but someone else will need to run the bioinformatics workflow for you.*  
@@ -38,7 +38,7 @@ conda activate Bioinfo4B-STR
 ## Short read alignment
 
 Then, navigate to the folder `scripts/bash_scripts/`. Here, you will find a number of bash scripts to run the bioinformatics workflow for this project. The first three scripts (`01_bwa-mem2_index.sh`, `02_bwa-mem2_alignment.sh`, and `03_process_alignment.sh`) map the input reads to the *APC* reference sequence, and process the alignment. Read through these scripts: most of these steps should be familiar to you at this point. Once you understand all the steps performed in the first three scripts, run them --- in order --- one after the other.  
-**Important: make sure you are in the `scripts/bash` directory, otherwise the scripts will not work properly**  
+**Important: make sure you are in the `scripts/bash_scripts` directory, otherwise the scripts will not work properly**  
 
 Once you've run the scripts, check the directories in the `data/` folder to make sure all output files were generated properly (e.g. you should find `APC_mut.bam` and `APC_mut.bam.bai` files in `data/alignments/`).  
 

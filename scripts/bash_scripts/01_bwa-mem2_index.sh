@@ -1,4 +1,4 @@
-#!/bin/env/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 # Before we can align the reads to the reference with bwa-mem2, we need 
